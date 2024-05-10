@@ -1,0 +1,42 @@
+def demonstrate_list_slicing():
+    # Define a list of players.
+    players = ['charles', 'martina', 'michael', 'florence', 'eli']
+    
+    # Basic Slicing Examples
+    # Printing different slices of the list.
+    print("Slicing from index 0 to 2:", players[0:3])  # Index 3 is not included.
+    print("Slicing from index 1 to 3:", players[1:4])  # Up to but not including index 4.
+    print("Slicing from start to index 3:", players[:4])  # From the beginning up to but not including index 4.
+    print("Slicing from index 2 to the end:", players[2:])  # From index 2 to the end of the list.
+    print("Last three items:", players[-3:])  # Last three items in the list.
+
+    # Demonstrating slicing in a real-world context.
+    print("\nHere are the first three players on my team:")
+    for player in players[:3]:  # Loop through the first three elements of the list.
+        print(player.title())  # Capitalize the first letter of each player's name.
+
+# Additional Real-World Examples
+def team_selection(players, start, end):
+    """Selects a team segment from a list of players based on start and end indices."""
+    return players[start:end]
+
+def last_n_players(players, n):
+    """Returns the last n players from the team list."""
+    return players[-n:]
+
+def rotate_players(players, n):
+    """Simulates a rotation of players in the lineup by n positions."""
+    return players[n:] + players[:n]
+
+# Main function to orchestrate the demonstrations
+def main():
+    players = ['charles', 'martina', 'michael', 'florence', 'eli']
+    demonstrate_list_slicing()
+
+    # Using the slicing functions in a real-world scenario
+    print("\nSelected team segment (indexes 1 to 3):", team_selection(players, 1, 4))
+    print("Last 3 players:", last_n_players(players, 3))
+    print("Rotated team lineup (rotate by 2):", rotate_players(players, 2))
+
+if __name__ == "__main__":
+    main()
