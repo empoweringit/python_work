@@ -2,11 +2,57 @@
 
 Thank you for partaking in this course and,
 
-Welcome to the Python Training Course! I John Underwood and EmpowerinIT LLC creafted this to guide beginners to success with python programming. This course is designed to guide you through the fundamental to advanced concepts of Python programming, and beginner to adavanced programs and even games. Whether you are just starting out or looking to polish your skills, this course offers structured content divided into progressive sections, each dedicated to a specific level of Python expertise.
+Welcome to the Python Training Course! I John Underwood and EmpoweringIT LLC crafted this to guide beginners to success with python programming. This course is designed to guide you through the fundamental to advanced concepts of Python programming, and beginner to advanced programs and even games. Whether you are just starting out or looking to polish your skills, this course offers structured content divided into progressive sections, each dedicated to a specific level of Python expertise.
 
 ## Course Overview
 
 This Python course is structured into multiple files, each focusing on different elements of Python—from basic syntax and data structures to advanced concepts like decorators and context managers. Our aim is to provide a holistic learning experience that covers all aspects of Python programming.
+
+### Style Guide (PEP 8):
+
+1. **Indentation**:
+
+   - Use four spaces per indentation level.
+   - Continuation lines should align wrapped elements either vertically using Python’s implicit line joining inside parentheses, brackets, and braces, or using a hanging indent. When using a hanging indent, there should be no arguments on the first line, and further indentation should be used to clearly distinguish itself as a continuation line.
+
+2. **Line Length**:
+
+   - Limit all lines to a maximum of 79 characters.
+   - For flowing long blocks of text with fewer structural restrictions (docstrings or comments), the line length should be limited to 72 characters.
+
+3. **Blank Lines**:
+
+   - Used to group parts of the program visually.
+   - Strike the right balance; not to be excessive. For example, if you have 5 lines of code that build and another 3 lines that do something with the list, place one blank line, but not 3 or more.
+   - Needed for readability and to separate function and class definitions and larger blocks of code inside functions.
+
+4. **Tabs or Spaces**:
+
+   - Spaces are the preferred indentation method.
+   - Tabs should be used solely to remain consistent with code that is already indented with tabs.
+   - Python disallows mixing tabs and spaces for indentation.
+
+5. **Maximum Line Length**:
+
+   - Limit all lines to a maximum of 79 characters.
+   - For docstrings and comments, the line length should be limited to 72 characters.
+
+6. **Should a Line Break Before or After a Binary Operator**:
+
+   - Following the tradition from mathematics usually results in more readable code.
+
+7. **Blank Lines**:
+
+   - Surround top-level function and class definitions with two blank lines.
+   - Method definitions inside a class are surrounded by a single blank line.
+
+8. **Imports**:
+
+   - Imports should usually be on separate lines.
+   - Imports are always put at the top of the file, just after any module comments and docstrings, and before module globals and constants.
+
+9. **Whitespace in Expressions and Statements**:
+   - Avoid extraneous whitespace immediately inside parentheses, brackets or braces, between a trailing comma and a following close parenthesis, immediately before a comma, semicolon, or colon.
 
 ## Principles of Coding
 
